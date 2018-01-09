@@ -3,5 +3,5 @@ class User < ActiveRecord::Base
   validates_presence_of :username, :password
   attr_accessor :balance
   def initialize(params)
-    @balance = balance
+    @balance = 0
 end
