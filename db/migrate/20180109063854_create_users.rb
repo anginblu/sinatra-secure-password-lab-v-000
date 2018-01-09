@@ -3,7 +3,7 @@ class CreateUsers < ActiveRecord::Migration
     create_table :users do |t|
       t.string :username
       t.string :password_digest
-      t.money :balance, default: 0
+      t.real :balance, default: 0
     end
   end
 end
