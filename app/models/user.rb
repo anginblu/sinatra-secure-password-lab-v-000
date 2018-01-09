@@ -4,4 +4,5 @@ class User < ActiveRecord::Base
   attr_accessor :balance
   def initialize(params)
     @balance = 0
+  end
 end
