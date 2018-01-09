@@ -4,7 +4,6 @@ require "sinatra/activerecord/rake"
 
 task :console do
   require 'pry'
-  require 'gem_name'
 
   def reload!
     # Change 'gem_name' here too:
